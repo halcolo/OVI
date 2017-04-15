@@ -1,61 +1,54 @@
+/*GENERALES*/
 body{
+	display: flex;
+    flex-direction: column;
+    height: 100%;
 	font-family: 'Lato', sans-serif;
+	padding-top: 80px;
+}
+header{
+	width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed;
+	height: 80px;
+}
+img{
+	max-width: 90%;
+}
+a{
+	color: #009FFF;
+	padding: 20px;
 }
 
-img{
-	max-width: 100%;
+.link:hover{
+	color: #FCFCF9;
 }
+
+a:link   
+{   
+ text-decoration:none;   
+}
+
+
+
+/*CLASES*/
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+
 
 .quitar-float{
 	float: none;
 }
 .espacio-arriba{
-	margin-top: 120px;
+	margin-top: 5%;
 }
 .espacio-abajo{
 	padding: 10px;
-}
-.monserrat{
-	font-family: 'Montserrat', sans-serif;
-}
-.serif{
-	font-family: 'Bree Serif', serif;
-}
-.grande{
-	font-size: 3em;
-}
-.mediano{
-	font-size: 2em; 
-}
-.grey{
-	color: #5F5448
-}
-.bck-grey{
-	background-color: #eee
-}
-a{
-	color: #009FFF
-}
-.azul{
-	color: #005883
-}
-.bck-blue{
-	background-color: #005883
-}
-.blanco{
-	color: #FCFCF9
-}
-.amarillo{
-	color: #F0B429
-}
-.bck-amarillo{
-	background-color: #F0B429
-}
-.naranja{
-	color: #F47920
-}
-.bck-naranja{
-	background-color: #F47920
 }
 .no-lista{
 	margin: 0px;
@@ -70,7 +63,6 @@ a{
 .pading-largo{
 	padding: 20px 20px;
 }
-
 .inline-block{
 	float: none;
 	display: inline-block;
@@ -79,6 +71,58 @@ a{
 .vete-arriba{
 	vertical-align: top;
 }
+
+
+
+/*FUENTES*/
+.mediano{
+	font-size: 2em; 
+}
+.grande{
+	font-size: 3em;
+}
+.monserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.serif{
+	font-family: 'Bree Serif', serif;
+}
+
+
+/*COLORES*/
+.blanco{
+	color: #FCFCF9
+}
+.bck-white{
+	background-color: #FFFFFF
+}
+.bck-amarillo{
+	background-color: #F0B429
+}
+.grey{
+	color: #5F5448
+}
+.bck-grey{
+	background-color: #eee
+}
+.grey-shade{
+	color: #424242
+}
+.naranja{
+	color: #F47920
+}
+.bck-naranja{
+	background-color: #F47920
+}
+.azul{
+	color: #005883
+}
+.bck-blue{
+	background-color: #005883
+}
+
+/*ANIMACIÓN*/
+
 .retraso-1{
 	-webkit-animation-delay: 0.5s;
 	-moz-animation-delay: 0.5s;
@@ -94,4 +138,23 @@ a{
 	-moz-animation-delay: 1.5s;
 	animation-delay: 1.5s;
 }
+
+
+
+/*PIE DE PAGINA*/
+footer{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+	footer p {
+		margin: 0;
+	}
+	
+	footer a {
+		color: white;
+	}
+
 
