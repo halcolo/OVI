@@ -4,100 +4,177 @@
         <meta http-equiv="content-type" content="text/html", charset="utf-8"/>
         <title>Diseño web</title>
         <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/modern-business.css" >
         <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre:700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
+        <script src="js/jquery.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <style>
+            .jumbotron{
+                border-radius:0px!important;
+                box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-image: url(https://static.pexels.com/photos/24324/pexels-photo.jpg); 
+                position: relative;
+                height: 100%;
+
+
+            }
+
+            .jumbotron .btn{
+                border-radius:0px!important;
+                box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+                padding:10px 40px;
+            }
+
+        </style>
     </head>
     <body>
-        
-      
-
-
-
         <header>
             <div>
-                <nav class="bck-grey pading-largo">
-                    <ul class="no-lista row text-center">
-                        <li class="col-md-4 text-center inline-block serif mediano"><a href="index.html"><img src="imgs/logoUNAD.png" class="col-xs-6 quitar-float"></a></li>
-                        <li class="col-md-3 text-right inline-block"><a href="learn.html">Aprende</a></li>
-                        <li class="col-md-3 text-right inline-block"><a href="Quien.html">Quienes somos</a></li>
-                    </ul>
-                </nav>	
+
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="imgs/logoUNAD.png" style="width: 200px; height: 50px; margin-top: -15px;"></a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="Inicio.html">INICIO</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">LECTURAS</a>
+                                </li>
+                                <li>
+                                    <a href="Multimedia.html">MULTIMEDIA</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">ACTIVIDADES</a>
+                                </li>
+                                <li>
+                                    <a href="quien.html">AUTORES</a>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
             </div>
-        </header>					
-        <section>
-            <div class="text-center">
-                <h1 class="animated fadeIn serif grande azul">TELECOMUNICACIONES</h1>
-                <p class="animated fadeIn">Selecciona tu tema</p>
-                <div class="animated fadeInUp col-md-4 col-sm-6 inline-block bck-amarillo espacio-abajo">
-                    <article>
-                        <h2 class="serif blanco">Acerca de las redes</h2>
-                        <img src="imgs/1432199020_design.png" class="col-xs-6 quitar-float">
-                    </article>
+        </header>
+
+        <div class="container">
+
+            <div class="row"><br>
+
+                <div class="jumbotron">
+                    <h1>OVI UNAD</h1>
+                    <p>En la siguiente pagina se muestra  la recopilación de las actividades desarrolladas en el <b>Curso diseño de sitios web
+301122 grupo 68</b>, ademas de mas material referente a la temática elegida 
+</p>
+                    
                 </div>
-                <div class="animated fadeInUp retraso-1 col-md-4 col-sm-6 inline-block bck-blue espacio-abajo">
-                    <article>
-                        <h2 class="serif blanco">Redes y seguridad</h2>
-                        <img src="imgs/1432199067_sem.png" class="col-xs-6 quitar-float">
-                    </article>
+            </div>
+
+
+            
+            
+            
+            
+            <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Estos temas se tratan en esta OVI</h2>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Disponibilidad y privacidad de datos</h4>
+                       
+                       
+                    </div>
                 </div>
-                <div class="animated fadeInUp retraso-2 col-md-4 col-sm-12 inline-block bck-naranja espacio-abajo">
-                    <article>
-                        <h2 class="serif blanco">Administración de redes</h2>
-                        <img src="imgs/1432199015_consult.png" class="col-xs-6 quitar-float">
-                    </article>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-shield fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Amenazas de seguridad</h4>
+                       <br>
+                       
+                    </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="text-center">
-                <h2>aqui va el primer tema</h2>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Protocolos y subnneting</h4>
+                        <br>
+                       
+                    </div>
+                </div>
             </div>
-            <div class="text-center">
-                <h2>aqui va el segundo tema</h2>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Administración de redes y conceptos básicos</h4>
+                        
+                       
+                    </div>
+                </div>
             </div>
-            <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-             <div class="text-center">
-                <h2>aqui va el tercero tema</h2>
-            </div>
-        </section>
+        </div>
+            
+        </div>
+        
+         
+        
+        
+
+
+       
         <footer class="bck-naranja blanco">
             <p>Curso diseño de sitios web </p>
             <p> 301122 grupo 68 </p>
